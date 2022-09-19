@@ -1,4 +1,5 @@
 # DS1307_RTC
+![DS1307 reference image](https://www.geekfactory.mx/wp-content/uploads/2015/10/ds1307-modulo-tiny-rtc-reloj-en-tiempo-real.jpg)
 
 ## DESCRIPCIÓN
 El DS1307 Real-Time-Clock Serie, es un dispositivo de bajo consumo de energía,
