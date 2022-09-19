@@ -24,3 +24,20 @@ funcionando.
 * Rango de temperatura Industrial Opcional: -40 ° C a +85 ° C
 * Disponible en 8-Pin Plástico DIP o SO
 * Reconocido Underwriters Laboratory (UL) 
+
+## OPERACION
+El DS1307 funciona como un dispositivo esclavo en el bus serie. El acceso se obtiene
+mediante la aplicación de una condición de START (Inicio) y la prestación de un código
+de identificación del dispositivo seguido de una dirección de registro. Se puede acceder a
+registros posteriores de forma secuencial hasta que es ejecutada una condición STOP.
+Cuando VCC cae por debajo de 1,25 x VBAT un dispositivo en curso rescinde el acceso y
+restablece el contador de dirección de dispositivo. En este momento, pueden no ser
+reconocidas entradas al dispositivo para evitar que se escriban datos erróneos en el
+dispositivo por fuera de tolerancia del sistema. Cuando VCC cae por debajo de VBAT el
+dispositivo conmuta a batería de baja corriente modo de seguridad. Tras el encendido, el
+dispositivo conmuta de la batería a VCC VCC cuando es mayor que VBAT + 0,2 V y
+reconoce las entradas cuando VCC es mayor de 1,25 x VBAT. El diagrama de bloques de
+la Figura 1 muestra los principales elementos del RTC serie.
+
+## DIAGRAMA
+<img src="diagrama.png" alt="DS1307 reference image" width="400"/>
