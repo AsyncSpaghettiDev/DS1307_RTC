@@ -42,4 +42,4 @@ la Figura 1 muestra los principales elementos del RTC serie.
 ## DIAGRAMA
 <img src="diagrama.png" alt="DS1307 reference image" width="400"/>
 
-## (HOJA DE DATOS)[https://www.hispavila.com/wp-content/uploads/2015/08/ds1307_esp.pdf]
+## [HOJA DE DATOS](https://www.hispavila.com/wp-content/uploads/2015/08/ds1307_esp.pdf)
